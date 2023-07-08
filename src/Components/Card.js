@@ -28,8 +28,6 @@ function Card() {
   const sliderRef = useRef(null);
   const [position, setPosition] = useState(0);
 
-  console.log(position);
-
   const handleArrowClick = () => {
     setPosition(-200);
   };
