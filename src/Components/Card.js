@@ -34,7 +34,7 @@ function Card() {
 
   function ColorChanger() {
     const [indexColor,setColor]=useState(0);
-
+    
     const colors=["#99C3CC","#CC9999","#CB99CC","#A6CC99"];
 
     return (
